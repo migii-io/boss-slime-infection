@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+}
+
+.slime {
+  background-color: #7fff00;
+}
+
+.slime img {
+  display: block;
+  width: 80px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.horda-1 {
+  background-color: rgb(155, 155, 240);
+}
+
+.slime-1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 30% 50%;
+}
+
+.slime-2 {
+  width: 280px;
+  height: 210px;
+  border-radius: 10% 40% 70%;
+}
+
+.slime-3 {
+  width: 220px;
+  height: 300px;
+  border-radius: 90% 30%;
+}
+
+.horda-2 {
+  background-color: rgb(236, 195, 79);
+  height: 600px;
+}
+
+.slime-4 {
+  width: 150px;
+  height: 150px;
+  border-radius: 40% 40% 70%;
+}
+
+.slime-5 {
+  width: 330px;
+  height: 150px;
+  border-radius: 60% 30% 30%;
+}
+
+.slime-6 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.horda-3 {
+  background-color: rgb(243, 243, 243);
+  height: 1000px;
+}
+
+.slime-7 {
+  width: 300px;
+  height: 300px;
+  border-radius: 25% 15% 15% 40%;
+}
+
+.slime-8 {
+  width: 240px;
+  height: 200px;
+  border-radius: 60% 50%;
+}
+
+.slime-9 {
+  width: 150px;
+  height: 100px;
+  border-radius: 40% 10% 30%;
+}

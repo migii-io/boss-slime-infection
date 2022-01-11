@@ -1,39 +1,49 @@
-# Boss: Hello, Trojan!
+# Boss: Slime Infection
 
 ## Boss description (Descrição do chefão)
 
 ### Specifications (Especificações)
-  * Difficulty (Dificuldade): Nível Slime
+  * Difficulty (Dificuldade): Nível Slime King
   * Roadmap (Trilha): Front-end estático
   * Topics covered (Assuntos abordados): 
-    * Primeiro website
-    * Sintaxe HTML
-    * Tags básicas
-    * Sintaxe CSS
-    * Seletores básicos
-    * Formatação com CSS (cores, fontes, etc)
+    * Specificity, Cascata e herança
+    * Box-model
+    * Flexbox
 
 ### Report (Relato)
 
-Alguém andou baixando séries de sites russos e contaminou o computador com um [trojan](https://pt.wikipedia.org/wiki/Cavalo_de_troia_(computação)) 🤡.
+Seu computador foi infectado por um [adware](https://pt.wikipedia.org/wiki/Adware), mas, o [hacker](https://pt.wikipedia.org/wiki/Hacker) que programou o vírus parou de receber dinheiro dos anunciantes e decidiu trocar os anúncios por imagens de slimes furiosas.
 
-Talvez com uma [engenharia reversa](https://pt.wikipedia.org/wiki/Engenharia_reversa) podemos descobrir mais sobre ele...
+Para derrotarmos essas slimes precisamos utilizar uma tecnologia muito poderosa do CSS, o **Flexbox**!
 
-Crie uma cópia da página abaixo para entendermos melhor o Trojan!
+Utilizando o código presente aqui, derrote cada horda de slimes como descrito abaixo:
 
-![layout do exercício](./design/final-layout.png)
+Horda 1:
+Essas slimes estão submersas na água, o jeito mais fácil de derrotá-las é separando-as.
+**Separe ao máximo essas slimes no eixo horizontal**
+![layout da horda 1](./design/horda-1.png)
+
+Horda 2:
+Essas slimes estão presas na lama, vamos jogá-las no centro da poça para elas não escaparem.
+**Centralize as slimes no eixo horizontal e vertical**
+![layout da horda 2](./design/horda-2.png)
+
+Horda 3:
+Essas slimes estão caindo do céu, vamos colocar a slime mais pesada em cima das demais para elas se esmagarem.
+**Distribua essas slimes em coluna, centralize-as no eixo horizontal e jogue-as no fim do eixo vertical** 
+![layout da horda 3](./design/horda-3.png)
+
+Lembre-se de utilizar flexbox em todos as hordas!
 
 ## Tips (Dicas)
-[Guia de estilos com cores, fontes e etc](./design/style-guide.md)
-
 <details>
   <summary>
     Secrets (Segredos) (não veja antes de quebrar a cabeça um pouco)
   </summary>
   <ul>
-    <li>Para acentos funcionarem, não se esqueça de configurar o <a href="https://developer.mozilla.org/en-US/docs/Glossary/character_encoding">charset</a> da sua página</li>
-    <li>Utilize <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors">classes CSS</a> para estilizar os dois parágrafos de diferentes maneiras</li>
-    <li>Coloque uma <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div">div</a> em volta da imagem de loading para centraliza-la utilizando a propriedade <code>text-align</code></li>
-    <li><a href="https://codesandbox.io/s/boss-hello-trojan-tz14z?file=/index.html">Link da resolução</a></li>  
+    <li>Para ativar o flexbox em um elemento, precisamos colocar o valor <em>flex</em> na propriedade <em>display</em></li>
+    <li>O valor padrão de <em>flex-direction</em> é <em>row</em>, ou seja, os elementos ficarão lado a lado</li>
+    <li>Ao trocar os valores de <em>flex-direction</em>, o funcionamento de <em>justify-content</em> e <em>align-items</em> são invertidos</li>
+    <li><a href="https://codesandbox.io/s/boss-slime-infection-5bgnn">Link da resolução</a></li>  
   </ul>
 </details>
